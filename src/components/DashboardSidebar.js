@@ -33,7 +33,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
   if (userDetails.token) {
     items = [
       { href: '/app/dashboard', icon: BarChartIcon, title: 'Dashboard' },
-      { href: '/app/account', icon: UserPlus, title: 'Account' },
+      { href: '/app/account', icon: UserPlusIcon, title: 'Account' },
       { href: '/logout', icon: LockIcon, title: 'Logout' }
     ];
   } else {
